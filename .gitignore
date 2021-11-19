@@ -1,0 +1,6 @@
+/.idea
+/.gradle
+/build
+/data/pois.*.idx
+/data/pois
+/data/na.osm.bz2
