@@ -18,7 +18,7 @@ To move your location hit ENTER. That will use the first result's location of th
 
 PLEASE NOTE: I am using `stty -icanon min 1` to be able to read from the terminal character-by-character. So, search results should appear immediately after you type a letter.
 
-## Example Query Flow:
+## Example Query Flow
 
 Start `./query.sh`
 
@@ -108,6 +108,46 @@ pharmacy
 100% pharmacy                   CVS Pharmacy                                                                                                                         134km
 100% pharmacy                   Rite Aid                                                                                                                             14km
 100% pharmacy                   Walgreens                                          Rosemead Boulevard                       San Gabriel                              171km
+```
+
+Erase (backspace) and type `fast_food toronto`:
+
+```
+fast_food toronto
+
+73% fast_food                   Harvey's                                           Jarvis Street                            Toronto                                  4279km
+73% fast_food                   Wendy's                                            Yonge Street                             Toronto                                  4278km
+73% fast_food                   Harvey's                                           Queen Street East                        Toronto                                  4285km
+70% fast_food                   Pizza Nova                                         Danforth Avenue                          Toronto                                  4288km
+66% fast_food                   Burger King                                        College Street                           Toronto                                  4276km
+66% fast_food                   Subway                                             Yonge Street                             Toronto                                  4278km
+66% fast_food                   Popeyes                                            Bloor Street West                        Toronto                                  4273km
+66% fast_food                   McDonald's                                         The Queensway                            Toronto                                  4271km
+66% fast_food                   McDonald's                                         Yonge Street                             Toronto                                  4278km
+66% fast_food                   McDonald's                                         Yonge Street                             Toronto                                  4278km
+```
+
+Hit ENTER:
+
+```
+You are now located at Harvey's. Start typing to explore the area
+```
+
+Type `cafe`:
+
+```
+cafe
+
+143% cafe                       Cafe AC                                                                                                                              2km
+140% cafe                       Starbucks                                          Bay Street                               Toronto                                  1km
+130% cafe                       Starbucks                                          Queen Street West                        Toronto                                  2km
+130% cafe                       Tim Hortons                                        Bloor Street West                        Toronto                                  2km
+130% cafe                       Starbucks                                          Yorkville Avenue                         Toronto                                  2km
+126% cafe                       Tim Hortons                                                                                 Toronto                                  0km
+123% cafe                       Starbucks                                          St George Street                         Toronto                                  2km
+120% cafe                       Starbucks                                          Yonge Street                             Toronto                                  1km
+120% cafe                       Tim Hortons                                        Bay Street                               Toronto                                  1km
+120% cafe                       Second Cup                                         St George Street                         Toronto                                  2km
 ```
 
 That's it :-)...
