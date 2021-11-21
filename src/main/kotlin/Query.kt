@@ -1,6 +1,6 @@
 import Constants.earthRadius
 import Constants.indexCount
-import Constants.maxLocationDepth
+import Constants.maxLocationBits
 
 /**
  * Interactive query tools for indexed POIs.
@@ -9,9 +9,11 @@ object Query {
     @JvmStatic
     fun main(args: Array<String>) {
         val filename = args[0]
+
         println()
         println("Querying $filename")
         println()
+        
         val reader = POILookupFileReader(filename)
 
         val indexes= (0 until indexCount).map { 
@@ -19,7 +21,8 @@ object Query {
             val seed2 = 0
             IndexQuerier("$filename.$seed1.$seed2.idx")
         }
-        println("Start typing, if you like the first result, hit 'ENTER' to move your location there")
+
+        println("Start typing. If you like the first result, hit 'ENTER' to move your location there:")
 
         var text = ""
         var location = Vec3d(0.0, 0.0, 0.0)
@@ -38,7 +41,7 @@ object Query {
                 text = ""
                 if (best != null) {
                     println()
-                    println("You are now located at ${best.name}. Start typing to explore the area")
+                    println("You are now located at ${best.name}. Start typing to explore the area and hit ENTER to move again:")
                     location = Vec3d.fromLatLon(best.lat, best.lon)
                 }
                 continue
@@ -54,9 +57,9 @@ object Query {
             println()
 
             val ids = (0 until indexCount).map {
-                val seed1 = it
-                val seed2 = 0
-                val hash = Hash.hash(text, location, seed1, seed2,  it * maxLocationDepth / indexCount)
+                val seed1 = it.toUInt()
+                val seed2 = 0u
+                val hash = Hash.hash(text, location, seed1, seed2,  it * maxLocationBits / indexCount)
                 indexes[it].get(hash, queryLimit)
             }
             val idFreq = ids.flatten().groupBy { it }.mapValues { it.value.size }.toList().sortedBy { -it.second }

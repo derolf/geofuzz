@@ -11,26 +11,27 @@ class IndexQuerier(filename: String) {
     private val map = RandomAccessFile(filename, "r").channel.map(FileChannel.MapMode.READ_ONLY, 0, fileSize).asLongBuffer()
     private val size = map.limit()
 
-    fun get(hash: Int, limit: Int) : List<Int> {
-        val entry = hash.toLong() shl 32
+    fun get(hash: UInt, limit: Int) : List<UInt> {
+        val entry = hash.toULong() shl 32
 
         // good old binary search to find the leftmost element
         var l = 0
         var r = size
         while(l < r) {
             val m = l + (r - l) / 2
-            if (map[m] < entry) {
+            if (map[m].toULong() < entry) {
                 l = m + 1
             } else {
                 r = m
             }
-
         }
 
-        val result = mutableListOf<Int>()
+        // extract `limit` entries around `l`
+        val result = mutableListOf<UInt>()
+        l = max(l - limit / 2, 0)
         r = min(l + limit, size)
         while (l < r) {
-            result.add(map[l].toInt())
+            result.add(map[l].toUInt())
             l++
         }
         return result

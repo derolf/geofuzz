@@ -1,6 +1,9 @@
 import java.io.*
 import org.apache.commons.compress.utils.CountingInputStream
 
+/**
+ * POI data class
+ */
 data class POI(val id: Long, val lat: Double, val lon: Double, val amenity: String, val name: String, val street: String, val housenumber: String, val postcode: String, val city: String, val state: String) {
     fun write(dos: DataOutput) {
         dos.apply {
@@ -54,7 +57,6 @@ class POILookupFileReader(filename: String) : Closeable {
         file.seek(position)
         return POI.read(file)
     }
-
    
     override fun close() = file.close()
 }

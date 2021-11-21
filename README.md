@@ -27,7 +27,7 @@ You will see:
 ```
 Querying data/pois
 
-Start typing, if you like the first result, hit 'ENTER' to move your location there
+Start typing. If you like the first result, hit 'ENTER' to move your location there:
 ```
 
 Type `seattle`:
@@ -35,22 +35,22 @@ Type `seattle`:
 ```
 seattle
 
-53% ferry_terminal              Seattle                                            Alaskan Way                              Seattle                                  6370km
-43% ferry_terminal              Seattle                                                                                                                              6371km
-43% ferry_terminal              Seattle                                                                                                                              6371km
-23% cafe                        Seattle Drip                                                                                                                         6371km
-23% restaurant                  Seaside Prime                                      Broadway Street                          Richmond                                 6371km
-23% restaurant                  Sea Thai                                           North 45th Street                        Seattle                                  6371km
-23% arts_centre                 Seattle Mosaic Arts                                North 46th Street                        Seattle                                  6371km
-23% fuel                        Esso                                               Sims Avenue                              Weyburn                                  6371km
-20% cafe                        Seattle Grind                                      Harrison Street                          Seattle                                  6371km
-20% library                     Library                                            Holcott Drive                            Attleboro                                6371km
+86% ferry_terminal              Seattle                                            Alaskan Way                              Seattle                                  6370km
+70% ferry_terminal              Seattle                                                                                                                              6371km
+70% ferry_terminal              Seattle                                                                                                                              6371km
+40% cafe                        Seattle Grind                                      Harrison Street                          Seattle                                  6371km
+40% event_space                 Seattle Cathedral                                  Ballard Avenue Northwest                 Seattle                                  6371km
+33% pub                         Red Onion                                          East Madison Street                      Seattle                                  6371km
+33% pub                         LTD                                                North 36th Street                        Seattle                                  6370km
+33% pub                         Kate's Pub                                         Northeast 45th Street                    Seattle                                  6371km
+33% fuel                        Shilshole Fuel Dock                                Seaview Avenue Northwest                 Seattle                                  6371km
+33% spa                         Banya 5                                            9th Avenue North                         Seattle                                  6371km
 ```
 
 Hit ENTER:
 
 ```
-You are now located at Seattle. Start typing to explore the area
+You are now located at Seattle. Start typing to explore the area and hit ENTER to move again:
 ```
 
 Type `starbucks`:
@@ -58,16 +58,16 @@ Type `starbucks`:
 ```
 starbucks
 
-133% cafe                       Starbucks                                          Broadway East                            Seattle                                  3km
-133% cafe                       Starbucks                                          Occidental Avenue South                  Seattle                                  2km
-126% cafe                       Starbucks                                          1st Avenue South                         Seattle                                  2km
-123% cafe                       Starbucks                                          12th Avenue                              Seattle                                  4km
+123% cafe                       Starbucks                                          Broadway East                            Seattle                                  3km
+123% cafe                       Starbucks                                          Occidental Avenue South                  Seattle                                  2km
+120% cafe                       Starbucks                                          Lake Street                              Kirkland                                 17km
 120% cafe                       Starbucks                                          Strander Boulevard                       Tukwila                                  18km
-113% cafe                       Starbucks                                          Lake Street                              Kirkland                                 17km
-110% cafe                       Starbucks                                          Ackroyd Road                             Richmond                                 169km
-110% cafe                       Starbucks                                          Sea Island Way                           Richmond                                 170km
-110% cafe                       Starbucks                                          De Palma Road                            Corona                                   1438km
-100% cafe                       Starbucks                                          Northwest 23rd Avenue                    Portland                                 198km
+106% cafe                       Starbucks                                          1st Avenue South                         Seattle                                  2km
+100% cafe                       Starbucks                                          Alderwood Mall Parkway                   Lynnwood                                 21km
+100% cafe                       Starbucks                                          196th Street Southwest                   Lynnwood                                 19km
+96% cafe                        Starbucks                                          164th Street Southwest                   Lynnwood                                 23km
+96% cafe                        Starbucks                                          Washington Avenue South                  Kent                                     24km
+93% cafe                        Starbucks                                          Dawson Street                            Burnaby                                  171km
 ```
 
 Erase (backspace) and type `fogo de chao`:
@@ -76,21 +76,21 @@ Erase (backspace) and type `fogo de chao`:
 fogo de chao
 
 106% restaurant                 Fogo de Chao                                       6th Avenue                               San Diego                                1544km
-93% restaurant                  Fogo de Chao                                       Bellevue Way Northeast                                                            16km
-76% restaurant                  Fogo de Chao                                       Park Place                               Rosemont                                 3820km
-70% restaurant                  Fogo de Chao                                                                                Philadelphia                             5157km
-60% restaurant                  Fogo De Chao                                                                                                                         3178km
-56% restaurant                  Fogo de Chao                                                                                                                         3210km
-56% restaurant                  Fogo De Chao                                                                                                                         3235km
-56% restaurant                  Fogo de Chão                                       Santana Row                              San Jose                                 968km
-53% restaurant                  Fogo de Chao                                                                                                                         3179km
-53% restaurant                  Fogo de Chão                                       Southwest 6th Avenue                     Portland                                 199km
+106% restaurant                 Fogo de Chao                                                                                Philadelphia                             5157km
+106% restaurant                 Fogo de Chao                                       Park Place                               Rosemont                                 3820km
+90% restaurant                  Fogo de Chao                                       Bellevue Way Northeast                                                            16km
+76% restaurant                  Fogo de Chao                                                                                                                         3210km
+73% restaurant                  Fogo De Chao                                                                                                                         3235km
+73% restaurant                  Fogo de chao                                       West 53rd Street                                                                  5265km
+73% restaurant                  Fogo de Chao                                                                                                                         3179km
+73% restaurant                  fogo de chao                                                                                                                         5538km
+73% restaurant                  Fogo de Chao                                                                                                                         4038km
 ```
 
 Hit ENTER:
 
 ```
-You are now located at Fogo de Chao. Start typing to explore the area
+You are now located at Fogo de Chao. Start typing to explore the area and hit ENTER to move again:
 ```
 
 Type `pharmacy`:
@@ -98,56 +98,56 @@ Type `pharmacy`:
 ```
 pharmacy
 
-110% pharmacy                   CVS Pharmacy                                                                                                                         16km
-110% pharmacy                   Rite Aid                                           Yucaipa Boulevard                        Yucaipa                                  131km
-110% pharmacy                   CVS Pharmacy                                       El Cajon Boulevard                       San Diego                                11km
-106% pharmacy                   CVS Pharmacy                                                                                                                         37km
-106% pharmacy                   Walgreens                                          3rd Avenue                               Chula Vista                              14km
-103% pharmacy                   Pharmaca                                                                                                                             757km
-103% pharmacy                   Rite Aid                                           Del Mar Heights Road                     San Diego                                25km
-100% pharmacy                   CVS Pharmacy                                                                                                                         134km
-100% pharmacy                   Rite Aid                                                                                                                             14km
-100% pharmacy                   Walgreens                                          Rosemead Boulevard                       San Gabriel                              171km
+136% pharmacy                   Community Pharmacy                                 University Avenue                        San Diego                                3km
+136% pharmacy                   CVS Pharmacy                                       El Cajon Boulevard                       San Diego                                11km
+130% pharmacy                   Rite Aid                                           Robinson Avenue                          San Diego                                3km
+126% pharmacy                   Walgreens                                          3rd Avenue                               Chula Vista                              14km
+126% pharmacy                   CVS Pharmacy                                       Market Street                            San Diego                                0km
+116% pharmacy                   CVS                                                El Cajon Boulevard                       San Diego                                7km
+113% pharmacy                   CVS                                                West Valley Parkway                      Escondido                                39km
+113% pharmacy                   Rite Aid                                           Jamacha Road                             El Cajon                                 25km
+113% pharmacy                   CVS Pharmacy                                       Rosecrans Street                         San Diego                                6km
+110% pharmacy                   Walgreens                                          Encinitas Boulevard                      Encinitas                                34km
 ```
 
-Erase (backspace) and type `fast_food toronto`:
+Erase (backspace) and type `cafe toronto`:
 
 ```
-fast_food toronto
+cafe toronto
 
-73% fast_food                   Harvey's                                           Jarvis Street                            Toronto                                  4279km
-73% fast_food                   Wendy's                                            Yonge Street                             Toronto                                  4278km
-73% fast_food                   Harvey's                                           Queen Street East                        Toronto                                  4285km
-70% fast_food                   Pizza Nova                                         Danforth Avenue                          Toronto                                  4288km
-66% fast_food                   Burger King                                        College Street                           Toronto                                  4276km
-66% fast_food                   Subway                                             Yonge Street                             Toronto                                  4278km
-66% fast_food                   Popeyes                                            Bloor Street West                        Toronto                                  4273km
-66% fast_food                   McDonald's                                         The Queensway                            Toronto                                  4271km
-66% fast_food                   McDonald's                                         Yonge Street                             Toronto                                  4278km
-66% fast_food                   McDonald's                                         Yonge Street                             Toronto                                  4278km
+83% cafe                        Soban Cafe                                         Yonge Street                             Toronto                                  4278km
+80% cafe                        Lido Caffe                                         St. Clair Avenue West                    Toronto                                  4271km
+73% cafe                        Cafe Nuna                                          Queen Street West                        Toronto                                  4275km
+73% cafe                        Cafe Piccolino                                     Bloor Street West                        Toronto                                  4272km
+70% cafe                        Faema Cafe                                         Dupont Street                            Toronto                                  4275km
+70% cafe                        Cactus                                             Bloor Street West                        Toronto                                  4275km
+70% cafe                        Chatime                                            Yonge Street                             Toronto                                  4278km
+70% cafe                        Caked Coffee                                       Bloor Street West                        Toronto                                  4271km
+66% cafe                        Krave Coffee                                       St. Clair Avenue West                    Toronto                                  4274km
+66% cafe                        Douce France                                       Yonge Street                             Toronto                                  4278km
 ```
 
 Hit ENTER:
 
 ```
-You are now located at Harvey's. Start typing to explore the area
+You are now located at Soban Cafe. Start typing to explore the area and hit ENTER to move again:
 ```
 
-Type `cafe`:
+Type `fast_food`:
 
 ```
-cafe
+fast_food
 
-143% cafe                       Cafe AC                                                                                                                              2km
-140% cafe                       Starbucks                                          Bay Street                               Toronto                                  1km
-130% cafe                       Starbucks                                          Queen Street West                        Toronto                                  2km
-130% cafe                       Tim Hortons                                        Bloor Street West                        Toronto                                  2km
-130% cafe                       Starbucks                                          Yorkville Avenue                         Toronto                                  2km
-126% cafe                       Tim Hortons                                                                                 Toronto                                  0km
-123% cafe                       Starbucks                                          St George Street                         Toronto                                  2km
-120% cafe                       Starbucks                                          Yonge Street                             Toronto                                  1km
-120% cafe                       Tim Hortons                                        Bay Street                               Toronto                                  1km
-120% cafe                       Second Cup                                         St George Street                         Toronto                                  2km
+110% fast_food                  Villa Fruit                                        Yonge Street                             North York                               1km
+103% fast_food                  California Thai                                    Yonge Street                             North York                               1km
+100% fast_food                  McDonald's                                         Yonge Street                             North York                               1km
+96% fast_food                   Subway                                                                                                                               4km
+93% fast_food                   Pizza Pizza                                                                                                                          4km
+93% fast_food                   Wendy's                                            Yonge Street                             North York                               1km
+93% fast_food                   Pizza Hut Express                                  Yonge Street                             North York                               1km
+90% fast_food                   Subway                                             Finch Avenue West                        North York                               0km
+90% fast_food                   Haida Sandwich                                     Northtown Way                            Toronto                                  0km
+83% fast_food                   Pizza Pizza                                                                                                                          5km
 ```
 
 That's it :-)...
