@@ -19,9 +19,9 @@ data class Vec3d(val x: Double, val y: Double, val z: Double) {
         fun fromLatLon(latDeg: Double, lonDeg: Double) : Vec3d {
             val lat = latDeg / 180 * PI
             val lon = lonDeg / 180 * PI
-            val x = sin(lon) * cos(lat)
-            val z = sin(lon) * sin(lat)
-            val y = cos(lon)
+            val x = cos(lat) * cos(lon)
+            val y = cos(lat) * sin(lon)
+            val z = sin(lat)
             return Vec3d(x, y, z)
         }
     }
